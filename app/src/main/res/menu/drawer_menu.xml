@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/subtitle"
+            android:title="TAGS">
+            <menu>
+                <item
+                    android:id="@+id/item1"
+                    android:icon="@drawable/ic_outline_label_24"
+                    android:title="Kitchen" />
+                <item
+                    android:id="@+id/item2"
+                    android:icon="@drawable/ic_outline_label_24"
+                    android:title="Furniture" />
+
+                <item
+                    android:id="@+id/item3"
+                    android:icon="@drawable/ic_outline_label_24"
+                    android:title="Everyday Tasks" />
+                <item
+                    android:id="@+id/item4"
+                    android:icon="@drawable/ic_outline_label_24"
+                    android:title="Study" />
+                <item
+                    android:id="@+id/item5"
+                    android:icon="@drawable/ic_outline_label_24"
+                    android:title="Books" />
+                <item
+                    android:id="@+id/item6"
+                    android:icon="@drawable/ic_outline_label_24"
+                    android:title="Weekend Plans" />
+                <item
+                    android:id="@+id/item7"
+                    android:icon="@drawable/ic_outline_edit_24"
+                    android:title="Create/Edit tags" />
+            </menu>
+
+        </item>
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/item8"
+            android:icon="@drawable/ic_outline_drive_file_move_rtl_24"
+            android:title="Log" />
+    </group>
+
+    <group
+        android:id="@+id/group3"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/item9"
+            android:icon="@drawable/ic_outline_settings_24"
+            android:title="Settings" />
+        <item
+            android:id="@+id/item10"
+            android:icon="@drawable/ic_outline_feedback_24"
+            android:title="Send App Feedback" />
+        <item
+            android:id="@+id/item11"
+            android:icon="@drawable/ic_outline_help_center_24"
+            android:title="Help" />
+    </group>
+
+</menu>
